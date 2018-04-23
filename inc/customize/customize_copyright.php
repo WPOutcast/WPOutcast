@@ -22,7 +22,7 @@ function wpoutcast_footer_copyright( $wp_customize ) {
 	$wp_customize->add_control('social_link_facebook', array(
         'label' => __('Facebook URL','wpoutcast'),
         'section' => 'copyright_social_icon',
-        'type' => 'text',
+        'type' => 'url',
     ) );
 
 	$wp_customize->add_setting(
@@ -43,7 +43,7 @@ function wpoutcast_footer_copyright( $wp_customize ) {
 	$wp_customize->add_control( 'social_link_twitter', array(
         'label' => __('Twitter URL','wpoutcast'),
         'section' => 'copyright_social_icon',
-        'type' => 'text',
+        'type' => 'url',
     ) );
 
 	$wp_customize->add_setting( 'Social_link_twitter_tab',array(
@@ -64,7 +64,7 @@ function wpoutcast_footer_copyright( $wp_customize ) {
 	$wp_customize->add_control( 'social_link_linkedin', array(
         'label' => __('Linkedin URL','wpoutcast'),
         'section' => 'copyright_social_icon',
-        'type' => 'text',
+        'type' => 'url',
     ) );
 
 	$wp_customize->add_setting( 
@@ -86,7 +86,7 @@ function wpoutcast_footer_copyright( $wp_customize ) {
 	$wp_customize->add_control('social_link_google', array(
         'label' => __('Google-plus URL','wpoutcast'),
         'section' => 'copyright_social_icon',
-        'type' => 'text',
+        'type' => 'url',
     ) );
 
 	$wp_customize->add_setting(

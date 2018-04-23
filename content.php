@@ -28,7 +28,7 @@
 					</a>
 					<?php }} ?>
 					<i class="fa fa-calendar meta-fa-icons"></i>
-					<span class="meta-data-date"><?php echo get_the_date( 'F j, Y' ); ?></span>
+					<span class="meta-data-date"><?php echo get_the_date(); ?></span>
 				</div>
 					<?php if(has_post_thumbnail()): ?>
 						<?php if(has_post_thumbnail()): ?>

@@ -1,9 +1,10 @@
 /*
 Theme Name: WPOutcast
+Theme URI: ;
 Author: Jazib Zaman
 Author URI: https://www.wpoutcast.com/
 Description: WPOutcast is a great WordPress Theme suitable for any blog/magazine type. This theme comes with all necessary features for your website. To make the featured posts standout and prominent a slider is added in theme ( choose the category and number of posts ). This theme has been built with the concept of responsiveness in mind which made it fully compatible and responsive on every smart device from smart-phones screens to large display screens.
-Version: 1.0.0
+Version: 1.0.1
 Tags: one-column, two-columns, right-sidebar, custom-logo, flexible-header, custom-background, custom-menu, footer-widgets, blog, threaded-comments, translation-ready, featured-images
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -1872,11 +1873,9 @@ footer{
 	}
 
 }
-
 .featured-post .comments-count{
 	top: 50px;
 }
-
 .featured-post .wpo-blog-post-box{
 	background-color: blanchedalmond;
 }
@@ -1890,8 +1889,6 @@ footer{
 }
 
 /*---------------------------------------------- Default Colors Css -------------------------------------------------------*/
-
-/*==================== Theme Menu ====================*/
 /*=== navbar Header colors ===*/
 
 @media screen and (min-width: 768px){
@@ -2118,7 +2115,6 @@ footer{
 .wpo-heading-bor-bt h5::before {
 	border-bottom-color: #3f51b5;
 }
-
 /*==================== Body & Global ====================*/
 .wrapper {
 	background: transparent;
@@ -2288,7 +2284,6 @@ button:hover, button:focus {
 .wpo-heading h3 span {
 	color: #3f51b5;
 }
-
 /*==================== sidebar & widgets ====================*/
 .wpo-sidebar {
 	border-color: #eee;
@@ -2370,7 +2365,6 @@ button:hover, button:focus {
 	background: white;
 	border-color: #ddd;
 }
-
 .wpo-sidebar .wpo-widget .wpo-widget-address li span.icon-addr {
 	background: #3f51b5;
 	color: #fff;
@@ -2379,7 +2373,6 @@ button:hover, button:focus {
 	background: #3f51b5;
 	color: #fff;
 }
-
 /*==================== footer & widgets ====================*/
 footer .wpo-footer-copyright p, footer .wpo-footer-copyright a {
 	color: #777;
@@ -2633,27 +2626,21 @@ footer .wpo-social li span.icon-soci:hover a, footer .wpo-social li span.icon-so
 .wp-caption .wp-caption-text {
 	color: #686868;
 }
-
 label {
 	color: #4A4A4A;
 }
-
 footer .widget_search .input-group .form-control{
 	background-color: white;
 }
-
 .wpo-blog-category.post-meta-data{
 	margin-bottom: 20px;
 }
-
 .single .wpo-blog-category.post-meta-data{
 	margin-bottom: 15px;
 }
-
 .wpo-blog-post-box article > h1{
 	font-weight: 600;
 }
-
 .wpo-blog-post-box article > h1 >a{
 	color: #349BDC;
 	transition: 0.3s;
@@ -2661,17 +2648,14 @@ footer .widget_search .input-group .form-control{
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 30px;
 }
-
 .wpo-blog-post-box article > h1 >a:hover{
 	text-shadow: 2px 2px grey;
 	transition: 0.3s;
 }
-
 .single .wpo-blog-post-box article > h1 > a:hover{
 	text-shadow: none;
 }
 /*-------------------------------------------SmartMenu bootstrap-------------------------------------------*/
-
 /* sub menus arrows on desktop */
 .navbar-nav:not(.sm-collapsible) ul .caret {
 	position: absolute;
@@ -2788,26 +2772,21 @@ footer .widget_search .input-group .form-control{
 	left: 0;
 	right: auto;
 }
-
 .main-menu{
 	margin: 1% 0%;
 }
-
 .content-container{
 	margin-bottom: 30px;
 }
-
 .single-content-container{
 	background-color: white;
 	margin-bottom: 30px;
 	border: 1px solid #aaa;
 }
-
 .page-content-container{
 	background-color: white;
 	margin-bottom: 30px;
 }
-
 .tile-img-height{
 		margin-bottom: 15px;
 		width: 100%;
@@ -2836,23 +2815,19 @@ footer .widget_search .input-group .form-control{
 .media:first-child{
 	margin-bottom:12px;
 }
-
 .logged-in-as{
 	font-style: italic;
 }
-
 .logged-in-as a{
 	font-style: italic;
 	color: #34AAEC;
 	transition: 0.3s;
 }
-
 .logged-in-as a:hover{
 	font-style: italic;
 	color: black;
 	transition: 0.3s;
 }
-
 .search-result{
 	padding-left: 45px;
 }
@@ -2860,12 +2835,10 @@ footer .widget_search .input-group .form-control{
 .navigation.pagination{
 	margin-top: -15px;
 }
-
 .navbar-brand > img.custom-logo{
 	height: 80px;
 	width:170px;
 }
-
 @media screen and (max-height: 767px){
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a{
 		color: #349BDC;
@@ -2874,7 +2847,6 @@ footer .widget_search .input-group .form-control{
 		background-color: whitesmoke;
 	}
 }
-
 .single-post-link, .page-post-link{
 	font-size: 1.3em;
 }

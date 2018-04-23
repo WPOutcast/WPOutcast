@@ -3,7 +3,7 @@
 Contributors: wpoutcast
 Requires at least: WordPress 4.7
 Tested up to: WordPress 5.0-trunk
-Version: 1.0.0
+Version: 1.0.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: one-column, two-columns, right-sidebar, custom-logo, flexible-header, custom-background, custom-menu, footer-widgets, blog, threaded-comments, translation-ready, featured-images
@@ -23,7 +23,7 @@ To set custom menu in header set primary location. We added social media links i
 
 This theme is compatible with Wordpress Version 4.7 and above and it supports the new theme customization API (https://codex.wordpress.org/Theme_Customization_API).
 
-Supported browsers: Firefox, Opera, Chrome, Safari and IE10+ (Some css3 styles like shadows, rounder corners and 2D transform are not supported by IE8 and below).
+Supported browsers: Firefox, Opera, Chrome, Safari and IE11 (Some css3 styles like shadows, rounder corners and 2D transform are not supported by IE8 and below).
 
 == Installation ==
 
@@ -58,11 +58,20 @@ This theme uses Bootstrap as a design tool
 * Licensed under https://github.com/twbs/bootstrap/blob/master/LICENSE
 
 =================================================
-This theme uses Font Awesome for the theme icons
+This theme uses Font Awesome 
 =================================================
-* Font Awesome icons, Copyright Dave Gandy
-* License: SIL Open Font License, version 1.1.
-* Source: http://fontawesome.io/
+* Font Awesome
+* Copyright: Dave Gandy
+* Resource URI: http://fontawesome.io
+* License: MIT
+* License URI: https://opensource.org/licenses/mit-license.html
+
+=================================
+This theme uses SmartMenus jQuery
+=================================
+* Version v1.0.0 - January 27, 2016
+* http://www.smartmenus.org/
+* Copyright Vasil Dinkov, Vadikom Web Ltd. http://vadikom.com; Licensed MIT
 
 ======================================
 This theme uses daneden/animate
@@ -71,7 +80,21 @@ This theme uses daneden/animate
 * Copyright (c) 2018 Daniel Eden ( https://github.com/daneden/animate.css/blob/master/LICENSE )
 * Licensed under https://github.com/daneden/animate.css
 
+=========================
+Images Used In ScreenShot
+=========================
+* By: Picography
+* https://pixabay.com/en/notebook-laptop-work-pc-computer-405755/
+* By: geralt
+* https://pixabay.com/en/system-network-connection-connected-3327289/
+* Licensed: CC0 Creative Commons
+
 == Changelog ==
+
+= 1.0.1 =
+
+* Released: April 23, 2018
+* Error/Bugs Removal
 
 = 1.0.0 =
 

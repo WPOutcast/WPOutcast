@@ -157,7 +157,7 @@ require get_template_directory() . '/inc/template-tags.php';
 function wpoutcast_read_more() {
 	global $post;
 	
-	$readbtnurl = '<br><a class="btn btn-tislider-two" href="' . get_permalink() . '">'.__('Read More','wpoutcast').'</a>';
+	$readbtnurl = '<br><a class="btn btn-tislider-two" href="' . esc_url(get_permalink()) . '">'.__('Read More','wpoutcast').'</a>';
 	
     return $readbtnurl;
 }
@@ -169,6 +169,6 @@ add_filter( 'the_content_more_link', 'wpoutcast_read_more' );
 			return $more;
 	}
    global $post;
-   return ' <br><a class="read-more-button" href="'. get_permalink($post->ID) . '">' . __('Read More &raquo;','wpoutcast') . '</a>';
+   return ' <br><a class="read-more-button" href="'. esc_url(get_permalink($post->ID)) . '">' . __('Read More &raquo;','wpoutcast') . '</a>';
    }
    add_filter('excerpt_more', 'wpoutcast_excerpt_more');

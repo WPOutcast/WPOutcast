@@ -40,11 +40,11 @@
             <div class="item active aligncenter">
               <?php if(has_post_thumbnail()) { ?>
                 <a class="set-inline-block" href="<?php the_permalink(); ?>">
-                  <img class="slider-img-height" src="<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>" alt="<?php the_title();?>">
+                  <img class="slider-img-height" src="<?php echo esc_url(wp_get_attachment_url(get_post_thumbnail_id())); ?>" alt="<?php the_title_attribute() ;?>">
                 </a>
               <?php } else { ?>
                 <a class="set-inline-block" href="<?php the_permalink(); ?>">
-                  <img class="slider-img-height" src="<?php echo get_template_directory_uri().'/images/1.jpg' ?>" alt="<?php the_title();?>">
+                  <img class="slider-img-height" src="<?php echo esc_url(get_template_directory_uri().'/images/1.jpg'); ?>" alt="<?php the_title_attribute() ;?>">
                 </a>
               <?php } ?>
                 <div class="carousel-caption">
@@ -54,7 +54,7 @@
                   <div>
                     <div class="caption-date">
                       <i class="fa fa-calendar meta-fa-icons"></i>
-                      <span class="meta-data-date"><?php echo get_the_date( 'F j, Y' ); ?></span>
+                      <span class="meta-data-date"><?php echo get_the_date(); ?></span>
                     </div>
                   </div>
                 </div>
@@ -63,11 +63,11 @@
             <div class="item aligncenter">
               <?php if(has_post_thumbnail()) { ?>
                 <a class="set-inline-block" href="<?php the_permalink(); ?>">
-                  <img class="slider-img-height" src="<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>" alt="<?php the_title();?>">
+                  <img class="slider-img-height" src="<?php echo esc_url(wp_get_attachment_url(get_post_thumbnail_id())); ?>" alt="<?php the_title_attribute() ?>">
                 </a>
               <?php } else { ?>
                 <a class="set-inline-block" href="<?php the_permalink(); ?>">
-                  <img class="slider-img-height" src="<?php echo get_template_directory_uri().'/images/1.jpg' ?>" alt="<?php the_title();?>">
+                  <img class="slider-img-height" src="<?php echo esc_url(get_template_directory_uri().'/images/1.jpg'); ?>" alt="<?php the_title_attribute() ;?>">
                 </a>
               <?php } ?>
               <div class="carousel-caption">
@@ -79,7 +79,7 @@
               <div>
                 <div class="caption-date">
                   <i class="fa fa-calendar meta-fa-icons"></i>
-                  <span class="meta-data-date"><?php echo get_the_date( 'F j, Y' ); ?></span>
+                  <span class="meta-data-date"><?php echo get_the_date(); ?></span>
                 </div>
               </div>
 
