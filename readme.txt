@@ -3,7 +3,7 @@
 Contributors: wpoutcast
 Requires at least: WordPress 4.7
 Tested up to: WordPress 5.0-trunk
-Version: 1.0.1
+Version: 1.0.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: one-column, two-columns, right-sidebar, custom-logo, flexible-header, custom-background, custom-menu, footer-widgets, blog, threaded-comments, translation-ready, featured-images
@@ -90,6 +90,11 @@ Images Used In ScreenShot
 * Licensed: CC0 Creative Commons
 
 == Changelog ==
+
+= 1.0.2 =
+
+* Released: May 9, 2018
+* URI Addition
 
 = 1.0.1 =
 
